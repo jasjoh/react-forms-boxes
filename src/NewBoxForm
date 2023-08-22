@@ -1,0 +1,13 @@
+/**
+ * Renders a form which allows for specifying properties of a box to create.
+ *
+ * Props:
+ * - addBox: a callback function for the form submission to add the box
+ *
+ * State:
+ * - formData: the values in the inputs of the form
+ */
+
+function NewBoxForm({ addBox }) {
+
+}
