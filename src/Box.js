@@ -12,11 +12,13 @@
  */
 
 function Box({ height, width, bgColor, removeBox }) {
+  console.log(`height: ${height}, width: ${width}, bgColor: ${bgColor}`);
   const style = {
-    height: height,
-    width: width,
+    height: `${height}px`,
+    width: `${width}px`,
     backgroundColor: bgColor
   }
+
   return (
     <div className="Box">
       <div className="Box-box" style={ style }></div>
@@ -26,3 +28,5 @@ function Box({ height, width, bgColor, removeBox }) {
     </div>
   )
 }
+
+export default Box;
